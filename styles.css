@@ -1,0 +1,310 @@
+* {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.navbar-inverse {
+  background: white !important;
+  border-bottom: 3px solid #EE445F !important;
+}
+
+.navbar-brand {
+  font: 15px "Roboto" !important;
+  text-transform: uppercase;
+  color: #799CC6 !important;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.navbar-brand:hover {
+  color: #55acee !important;
+}
+
+.nav {
+  margin-bottom: 0px;
+}
+
+li {
+  position: relative;
+}
+
+a {
+  font: 500 11px "Roboto";
+  letter-spacing: 2px;
+  padding: 16px !important;
+  color: black !important;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+}
+
+a:hover {
+  color: white !important;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+.navbar-collapse {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:active {
+  background: transparent !important;
+}
+
+.icon-bar {
+  background: #EE445F !important;
+}
+
+.hover {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #799CC6 !important;
+  z-index: 0;
+  opacity: 0;
+}
+
+@media (max-width: 767px) {
+  .nav {
+    padding-bottom: 10px;
+  }
+  .nav>a {
+    padding: 12px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding-bottom: 10px;
+  }
+}
+
+.jumbo {
+  background-image: url("https://images.apple.com/macos/sierra/overview/hero/fallback_bg_medium.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+  width: 100%;
+}
+
+.footer {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.servicesBorder {
+  border: 2.5px solid white;
+  height: 250px;
+  min-height: 250px;
+  min-width: 250px;
+  font-size: 1em;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+
+@media (min-width: 768px) {
+  .topRow {
+    border-top: 5px solid white;
+  }
+}
+
+
+/*------[[Contact]]------*/
+
+;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 70px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+/*-----[[End of Contact]]-------*/
+
+
+/*-------[[carousel]]------*/
+
+.carousel-words {
+  display: inline;
+}
+
+.carousel-words span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  width: 100%;
+  animation: rotateWords 12s linear infinite 0s;
+}
+
+.carousel-words span:nth-child(2) {
+  animation-delay: 3s;
+}
+
+.carousel-words span:nth-child(3) {
+  animation-delay: 6s;
+}
+
+.carousel-words span:nth-child(4) {
+  animation-delay: 9s;
+}
+
+@keyframes rotateWords {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
